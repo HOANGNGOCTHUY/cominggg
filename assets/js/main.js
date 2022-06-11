@@ -36,32 +36,32 @@ navs.forEach((nav, i) => {
   });
 });
 
-var repeat = function (activeClass) {
-  let active = document.getElementsByClassName("active");
-  let i = 1;
+// var repeat = function (activeClass) {
+//   let active = document.getElementsByClassName("active");
+//   let i = 1;
 
-  var repeater = () => {
-    setTimeout(function () {
-      [...active].forEach((activeSlide) => {
-        activeSlide.classList.remove("active");
-      });
-      navs[i].classList.add("active");
-      sliders[i].classList.add("active");
-      btns[i].classList.add("active");
-      i++;
+//   var repeater = () => {
+//     setTimeout(function () {
+//       [...active].forEach((activeSlide) => {
+//         activeSlide.classList.remove("active");
+//       });
+//       navs[i].classList.add("active");
+//       sliders[i].classList.add("active");
+//       btns[i].classList.add("active");
+//       i++;
 
-      if (sliders.length == i) {
-        i = 0;
-      }
-      if (i >= sliders.length) {
-        return;
-      }
-      repeater();
-    }, 10000);
-  };
-  repeater();
-};
-repeat();
+//       if (sliders.length == i) {
+//         i = 0;
+//       }
+//       if (i >= sliders.length) {
+//         return;
+//       }
+//       repeater();
+//     }, 10000);
+//   };
+//   repeater();
+// };
+// repeat();
 
 // Count down
 
