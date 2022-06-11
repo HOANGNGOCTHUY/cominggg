@@ -1,0 +1,433 @@
+@media screen and (max-width: 1440px) {
+    /* slider */
+    .panigation {
+        left: 160px;
+    }
+    .slider-content{
+        left: 265px;
+    }
+    /* deature */
+    .feature-left{
+        display: none;
+    }
+    .feature-right{
+        display: none;
+    }
+    /* sotry */
+    .story-content{
+        padding: 0 100px;
+    }
+    .story-content::before{
+        width: 100%;
+    }
+    .story-item{
+        padding: 30px 50px;
+    }
+    .sotry-description{
+        max-width: 800px;
+    }
+    .story-line::before{
+        left: 219px;
+    }
+    /* Meaning */
+    .mr-t{
+        margin-top: -400px;
+    }
+    /* price */
+    .price{
+        margin-top: -300px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    /* Feature */
+    .feature{
+        margin-bottom: 70px;
+    }
+    .feature-content{
+        padding: 25px;
+    }
+    .feature-left, .feature-right  {
+        display: none;
+    }
+    /* Story */
+    .story-content{
+        padding: 0;
+    }
+    .story-content::before{
+        width: 100%;
+        padding: 5px 0;
+    }
+    .story-item{
+        padding: 30px 50px;
+    }
+    .story-line::before{
+        left: 0;
+    }
+    /* Detail */
+    .detail-img{
+        padding: 0 50px;
+    }
+    /* outline */
+    .outline-body{
+        padding: 0 25px;
+    }
+    .outline-content{
+        margin-left: 50px;
+    }
+    /* 360 */
+    .product-img360{
+        padding: 0 20px;
+    }
+    /* Meaning */
+    .meaning-heading{
+        margin: 0;
+    }
+    .meaning-heading::before{
+        left: 50%;
+    }
+    .meaning-heading h1{
+        margin: 0;
+    }
+    .meaning-heading h1, .meaning-heading .meaning-desc{
+        text-align: center;
+    }
+    .meaning-item{
+        margin-top: 40px;
+    }
+    .pd-right{
+        padding-right: 100px;
+    }
+    .pd-left{
+        padding-left: 100px;
+        margin-top: -150px;
+    }
+    .mr-t{
+        margin-top: -380px;
+    }
+    /* .meading-image{
+        padding: 0 100px;
+    }
+    .bg-yellow{
+        background-position: -174px center;
+        height: 870px;
+    }
+    .bg-pink{
+        height: 870px;
+        background-position: 429px center;
+    }
+    .bg-green{
+        height: 870px;
+        background-position: -125px;
+        padding-top: 100px;
+        margin: 0;
+    } */
+    /* Price */
+    .price{
+        margin-top: -200px;
+    }
+    .price-main {
+        padding: 0 25px;
+    }
+    .price-image img{
+        padding: 0;
+        /* height: auto;
+        width: 100%; */
+    }
+    /* experience */
+    .experience-main{
+        padding: 0 25px;
+    }
+    .experience-image{
+        width: 100%;
+    }
+    .experience-body{
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .experience-heading{
+        padding: 0;
+    }
+    .experience-content{
+        background-size: contain;
+    }
+    .experience-items{
+        max-width: 250px;
+    }
+    .experience-name{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .experience-nagi{
+        top: 78%;
+    }
+
+    /* Contact */
+    .contact-hotline a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .global-title{
+        font-size: 20px;
+    }
+    .global-desc{
+        font-size: 20px;
+    }
+    /* Menu */
+    .hamburger{
+        display: block;
+    }
+    
+    .header-menu{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: var(--white-color);
+        width: 100%;
+        text-align: center;
+        transition:  0.3s;
+        z-index: 2;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .menu-item{
+        margin:  16px 0;
+    }
+    .header-menu.actived{
+        left: 0;
+    }
+    /* Slider */
+    .slider-content{
+        left: 110px;
+    }
+    .panigation{
+        left: 70px;
+    }
+    /* Different */
+    .different-item{
+        flex-direction: column;
+        
+    }
+    .different-content{
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+    /* Feature */
+    .feature-item{
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+    }
+    .feature-image{
+        order: 1;
+    }
+    .feature-content{
+        text-align: center;
+        order: 2;
+    }
+    /* Outline */
+
+    /* Meaning */
+    /* .bg-yellow{
+        background-position: -195px center;
+        height: 700px;
+    }
+    .bg-pink{
+        height: 700px;
+        background-position: 300px center;
+    }
+    .bg-green{
+       height: 660px;
+    } */
+    .mr-t{
+        margin-top: -300px;
+    }
+    /* Ex */
+    
+    .experience-heading{
+        margin-bottom: 25px;
+    }
+    .experience-nagi{
+        top: 82%;
+    }
+    /* Contact */
+    .contact-main{
+        flex-direction: column-reverse;
+    }
+    .form-contact{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .contact-body{
+        width: 100%;
+        padding: 0 25px;
+        margin: 0;
+    }
+    .contact-desc{
+        max-width: 100%;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .global-title{
+        font-size: 20px;
+    }
+    .global-desc{
+        font-size: 20px;
+    }
+    
+        
+    /* Slider */
+
+    .slider-title{
+        font-size: 16px;
+    }
+    .slider-heading{
+        font-size: 50px;
+    }
+    
+    .panigation{
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        flex-direction: row;
+    }
+    .panigation .btn{
+        margin: 0 8px;
+        width: 5px;
+        height: 5px;
+    }
+    .panigation .btn.active{
+        width: 8px;
+        height: 8px;
+    }
+    /* different */
+    .different-list{
+        flex-direction: column;
+    }
+    .different-item{
+        margin-bottom: 20px;
+    }
+    /* Story */
+    .story-item::before{
+        width: 100%;
+    }
+    .story-content{
+        flex-direction: column;
+    }
+    .controls{
+        flex-direction: row;
+    }
+    .story-line::before{
+        left: 0;
+        width: 100%;
+    }
+    /* Outline */
+    .outline-body{
+        flex-direction: column;
+    }
+    .outline-content{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .outline-img{
+        height: auto;
+    }
+    /* 360 */
+    .image360{
+        margin: -50px 0;
+    }
+    .icon-360 img{
+        width: 50px;
+        height: 50px;
+    }
+    .product-img360 img#product{
+        padding: 50px;
+    }
+    /* meaning */
+    .pd-right{
+        padding-right: 30px;
+    }
+    .pd-left{
+        margin-top: -100px;
+        padding-left: 30px;
+    }
+    .mr-t{
+        margin-top: -150px;
+    }
+    /* .meaning-item{
+        padding: 30px 0;
+    }
+    .bg-yellow{
+        background-position: -40px center;
+        height: 300px;
+    }
+    .bg-pink{
+        height: 300px;
+        background-position: 155px center;
+        padding: 0;
+    }
+    .bg-green{
+       height: 300px;
+       background-position: -30px center;
+    } */
+    /* Price */
+    .price{
+        margin-top: -100px;
+    }
+    .price-main {
+        flex-direction: column-reverse;
+    }
+    .price-heading{
+        margin: 20px 0 0 0;
+    }
+    .price-image img{
+        padding: 50px 0 20px 0;
+    }
+    /* Experience */
+    .experience-main{
+        flex-direction: column-reverse;
+    }
+    /* Contact */
+    .left.vulcan-heading::before{
+        left: 50%;
+        margin-left: 0;
+    }
+    .contact-title{
+        text-align: center;
+    }
+    .contact-desc{
+        text-align: center;
+    }
+    .contact-name{
+        text-align: center;
+    }
+    .contact-hotline li{
+        padding: 0;
+        border: 0;
+    }
+    .contact-hotline i{
+        display: none;
+    }
+    .contact-hotline{
+        flex-direction: column;
+    }
+    .form-field.half-width{
+        width: 100%;
+    }
+    /* Footer */
+    .footer-menu{
+        flex-direction: column;
+    }
+    .footer-menu .menu-item{
+        padding: 15px 25px;
+    }
+}
+
+

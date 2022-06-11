@@ -1,0 +1,4 @@
+<h3>EMAIL ĐĂNG KÝ NHẬN TIN TỨC MỚI NHẤT TỪ ELSUN</h3>
+<hr>
+<h4> Email khách hàng: {email} </h4>
+<hr>
