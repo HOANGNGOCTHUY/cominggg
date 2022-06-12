@@ -191,8 +191,10 @@
   .container-main {
     width: 30%;
     padding: 0;
-    /* white-space: nowrap; */
+    white-space: nowrap;
     margin-left: 88px;
+    max-width: 100px;
+    width: 100%;
   }
   .right-title {
     font-size: 30px;
@@ -208,11 +210,13 @@
     line-height: 24px;
   }
   .right-img {
-    width: 70%;
+    /* width: 70%;
+    height: 100%; */
+    width: 520px;
     height: 100%;
   }
   .right-img img {
-    object-position: 0px 40px;
+    object-position: 200px 100px;
   }
 }
 @media screen and (max-width: 768px) {

@@ -1,0 +1,83 @@
+<?php include "./PHPMailer-master/dangkynhantin.php" ?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <link
+      type="image/x-icon"
+      href="assets/images/favicon.png"
+      rel="shortcut icon"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/fontello.css" />
+  </head>
+  <body>
+    <style>
+     
+      .countdown-click{
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        background: linear-gradient(270deg, #FFFFFF -15.62%, rgba(255, 255, 255, 0) 29.2%), linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 35.11%), url(BG2.png);
+        backdrop-filter: blur(4px);
+        align-items: center;
+      }
+      .count-main{
+        margin-left: 100px;
+      }
+      .count-click{
+        margin-top: 43px;
+        display: inline-block;
+      }
+      .count-click a{
+        text-decoration: none;
+        background: #d72046;
+        border-radius: 30px;
+        color: #FFFFFF;
+        padding: 15px 32px;
+        font-weight: 400;
+        font-size: 16px;
+      }
+      .count-image{
+        width: 1100px;
+        height:100%;
+        flex: 1;
+      }
+      .count-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 200px 200px;
+      }
+    </style>
+    <div class="countdown-test" id="countdown-click">
+      <div class="countdown-click" >
+        <div class="count-main">
+          <div class="right-title">Vulcan Desk coming soon</div>
+          <div class="right-heading">
+            The new age of smart furnitures begin here
+            <p>Kỷ nguyên mới của nội thất thông minh bắt đầu từ đây</p>
+          <div class="count-click">
+            <a href="https://www.google.com.vn/" target="_blank" class="">Click ngay <i class="icon-right"></i></a>
+          </div>
+        </div>
+        </div>
+        <div class="count-image">
+          <img src="./assets/images/comingsoon.png" alt="" />
+        </div>
+      </div>
+    </div>
+    
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

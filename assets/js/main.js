@@ -64,10 +64,15 @@ navs.forEach((nav, i) => {
 // repeat();
 
 // Count down
+var apps = document.getElementById("app");
+var coundownClick = document.getElementById("countdown-click");
+console.log(apps, coundownClick);
 
 const countDown = () => {
   //Đặt ngày đếm ngược
-  var countDate = new Date("september 13 , 2022 00:00:00 ").getTime();
+  var countDate = new Date("June 13 , 2022 00:00:00 ").getTime();
+  
+
 
   //Lấy ngày và giờ hôm nay
   var now = new Date().getTime();
@@ -80,10 +85,15 @@ const countDown = () => {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   //Kiểm tra
-  days = days < 100 ? "0" + days : days;
+  days = days < 100 ? "00" + days : days;
   hours = hours < 10 ? "0" + hours : hours;
   minutes = minutes < 10 ? "0" + minutes : minutes;
   seconds = seconds < 10 ? "0" + seconds : seconds;
+
+  // if(days == 0){
+  //     apps.style.display="none";
+  //     coundownClick.style.display="block";
+  // } 
 
   // Hiển thị
   document.querySelector("#days").innerHTML = days;
@@ -93,3 +103,4 @@ const countDown = () => {
 };
 
 setInterval(countDown, 1000);
+

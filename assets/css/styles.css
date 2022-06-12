@@ -110,6 +110,7 @@ html body {
   /* padding: 183px 0 0 190px; */
   width: 50%;
   margin-left: 150px;
+  z-index: 1;
 }
 .container .container-left .slider-item {
   display: none;
@@ -522,3 +523,7 @@ html body {
      line-height: 16px;
      margin-bottom: 50px;
 } */
+
+#countdown-click{
+  display: none;
+}
