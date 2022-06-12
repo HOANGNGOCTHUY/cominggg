@@ -157,7 +157,7 @@ html body {
   letter-spacing: 0.025em;
   margin-bottom: 52px;
 }
-.slider-desc p:nth-child(1){
+.slider-desc p:nth-child(1) {
   margin-bottom: 15px;
 }
 
@@ -354,6 +354,7 @@ html body {
   line-height: 25px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .contact-item span {
   font-weight: 500;
